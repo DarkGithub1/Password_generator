@@ -37,8 +37,8 @@ function App() {
 
   return (
     <>
-      <div className="bg-gray-950 h-screen flex flex-col justify-center items-center  ">
-        <div className="w-1/2 h-1/2 border flex  gap-4 justify-center">
+      <div className= "bg-slate-200 h-screen flex flex-col justify-center items-center  ">
+        <div className="w-1/2 h-1/2 border bg-gray-950 flex  gap-4 justify-center ">
           <div className=" rounded-md   flex flex-col h-1/2  my-auto justify-evenly items-center">
             <h1 className="text-white font-serif  text-3xl text-center my-auto">
               Password generator
@@ -62,7 +62,7 @@ function App() {
             <div className="flex flex-col">
               <input
                 type="range"
-                min={6}
+                min={8}
                 max={100}
                 value={length}
                 className="cursor-pointer"
